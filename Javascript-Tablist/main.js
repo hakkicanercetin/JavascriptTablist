@@ -6,6 +6,9 @@ for(let i=0;i<btn.length;i++)
     btn[i].style.border = "none";
     btn[i].style.padding = "10px";
 }
+let tabs = document.getElementById("btn-tabs");
+tabs.style.display = "flex"
+tabs.style.backgroundColor = "rgb(241,241,241)"
 for(let i=0;i<cities.length;i++)
 {
     cities[i].style.display = "none";
