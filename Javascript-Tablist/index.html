@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Tablist</title>
+</head>
+<body>
+    <section>
+        <div style="display: flex;background-color: rgb(241,241,241);">
+            <button class="btn" onclick="cityInfo(event,'London')">London</button>
+            <button class="btn" onclick="cityInfo(event,'Paris')">Paris</button>
+            <button class="btn" onclick="cityInfo(event,'Tokyo')">Tokyo</button>
+        </div>
+        <div id="London" class="cities">
+            <h1>London</h1>
+            <p>London is the capital city of England.</p>
+        </div>
+        <div id="Paris" class="cities">
+            <h1>Paris</h1>
+            <p>Paris is the capital of France.</p>
+            <p></p>
+        </div>
+        <div id="Tokyo" class="cities">
+            <h1>Tokyo</h1>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
